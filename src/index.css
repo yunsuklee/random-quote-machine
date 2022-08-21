@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Aboreto', cursive;
+}
+
+#container {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#container #quote-box {
+  text-align: center;
+  width: 600px;
+  padding: 40px 50px;
+  border-radius: 5px;
+  background-color: #FFF;
+}
+
+#container #quote-box i {
+  font-size: 40px;
+}
+
+#container #quote-box #text {
+  font-size: 30px;
+  font-weight: 800;
+  margin-left: 20px;
+  letter-spacing: 5px;
+}
+
+#container #quote-box #author {
+  text-align: right;
+  height: 42.5px;
+  line-height: 42.5px;
+  margin: 20px 0;
+}
+
+#container #quote-box .buttons {
+  text-align: left;
+}
+
+#container #quote-box .buttons #new-quote {
+  float: right;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 800;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  color: #FFF;
+  cursor: pointer;
+  border: none;
+}
+
+#container #quote-box .buttons #tweet-quote, #container #quote-box .buttons #tumblr-quote {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: middle;
+  display: inline-block;
+  text-align: center;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+#container #quote-box .buttons a i {
+  color: #FFF;
+  font-size: 15px;
+}
+
+#container #quote-box .buttons #new-quote:hover, #container #quote-box .buttons #tweet-quote:hover, #container #quote-box .buttons #tumblr-quote:hover {
+  opacity: 0.9;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+/*# sourceMappingURL=index.css.map */
